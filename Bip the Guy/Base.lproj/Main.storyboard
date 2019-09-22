@@ -40,12 +40,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Choose Image to Punch" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gai-hT-943">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Image to Punch" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gai-hT-943">
                                 <rect key="frame" x="69" y="314" width="259" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="1ck-n2-Cq5"/>
+                                    <constraint firstAttribute="height" constant="21" id="L9q-4Z-ySI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -53,15 +53,15 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="94T-uB-exg" firstAttribute="top" secondItem="Gai-hT-943" secondAttribute="bottom" constant="8" symbolic="YES" id="3cj-L3-WDa"/>
                             <constraint firstItem="N5o-gO-Uw2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6WE-71-X3D"/>
+                            <constraint firstItem="Gai-hT-943" firstAttribute="top" secondItem="N5o-gO-Uw2" secondAttribute="bottom" constant="8" symbolic="YES" id="9IA-3p-X2E"/>
                             <constraint firstItem="94T-uB-exg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="Gt1-Yn-y7Z"/>
-                            <constraint firstItem="Gai-hT-943" firstAttribute="top" secondItem="N5o-gO-Uw2" secondAttribute="bottom" constant="8" symbolic="YES" id="MQW-ZD-LYK"/>
                             <constraint firstItem="N5o-gO-Uw2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NQS-g5-54d"/>
-                            <constraint firstItem="Gai-hT-943" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="Osl-02-gpe"/>
-                            <constraint firstItem="N5o-gO-Uw2" firstAttribute="centerX" secondItem="Gai-hT-943" secondAttribute="centerX" id="UKp-Wm-Fi7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gai-hT-943" secondAttribute="trailing" constant="47" id="Wvh-S0-DEl"/>
                             <constraint firstItem="N5o-gO-Uw2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="YLp-gW-DGL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="94T-uB-exg" secondAttribute="bottom" constant="294" id="a2M-bN-Yiv"/>
-                            <constraint firstItem="94T-uB-exg" firstAttribute="top" secondItem="Gai-hT-943" secondAttribute="bottom" constant="8" symbolic="YES" id="dr2-xc-51d"/>
+                            <constraint firstItem="Gai-hT-943" firstAttribute="leading" secondItem="94T-uB-exg" secondAttribute="leading" id="iXc-52-FPg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
